@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>
+
+</title>
+
+
+<h1></h1>
+
+
+</head>
+
+<body onLoad="Uhrzeit();">
+
+	
+<div class="home"> 
+<h1>Willkommen bei Rock Solid</h1> 
+</div>
+
+<p class="text1">
+Das sind unsere Livestreams.<br/>
+Hier erfährst du ob einer Online<br>
+ist oder nicht.<br>
+Für die Fans gibt es auch verlinkungen<br>
+</p>
+
+<p class="text2">
+Um zum Livestream zu kommen einfach<br/>
+drauf drücken und er leitet dich weiter<br>
+</p> 
+
+<p class="text3">
+D3nisty´s Stream
+</p>
+
+<p class="text4">
+Beispiel Stream
+</p>
+
+<p class="text5">
+Beispiel2 Stream
+</p>
+
+<script class="uhr" type="text/javascript">
+function Uhrzeit() {
+var Heute = new Date();
+var Stunde  = Heute.getHours();
+var Minute  = Heute.getMinutes();
+var Sekunde = Heute.getSeconds();
+document.zeit.uhr.value= Stunde + ":" + Minute + ":" + Sekunde;
+window.setTimeout('Uhrzeit()',1000); }
+</script>
+<form name="zeit">
+<input type=text name="uhr" size="10">
+</form>
+
+
+<div class="Links">
+<div class="borderL"> 
+</div>
+
+
+
+
+<div class="LinkA">
+<div id="Link1" >
+<a href="team.html">
+Team
+</a>
+</div>
+
+<div id="Link2">
+<a href="training.html">
+Training
+</a>
+</div>
+
+<div id="Link3">
+<a href="downloads.html">
+Downloads
+</a>
+</div>
+
+<div id="Link4">
+<a href="streams.html">
+Streams
+</a>
+</div>
+
+<div id="Link5">
+<a href="kontakt.html">
+Kontakt
+</a>
+</div>
+
+</div>
+</div>
+<div id="home">
+<a href="home.html">
+Home
+</a>
+</div>
+
+<a class="stream" href="http://twitch.tv/d3nisty">
+<img src="http://streambadge.com/twitch/dark/d3nisty.png" 
+width="300" 
+height="64" 
+alt="D3nisty's Streambadge"></a>
+
+
+
+</body>
+
+
+</html>e

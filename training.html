@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>
+
+</title>
+
+
+<h1></h1>
+
+
+</head>
+
+<body onLoad="Uhrzeit();">
+
+	
+<div class="home"> 
+<h1>Willkommen bei Rock Solid</h1> 
+</div>
+
+<p class="text1">
+Unser Training findet in der Flex-Que statt.<br/>
+Wir trainieren immer als 5.<br>
+Jeder übt zwei Rollen im Training<br>
+damit man für zwei Rollen einspringen kann<br>
+</p>
+
+<p class="text2">
+Das ist unser Zeitplan -><br/>
+<br>
+</p> 
+
+
+<script class="uhr" type="text/javascript">
+function Uhrzeit() {
+var Heute = new Date();
+var Stunde  = Heute.getHours();
+var Minute  = Heute.getMinutes();
+var Sekunde = Heute.getSeconds();
+document.zeit.uhr.value= Stunde + ":" + Minute + ":" + Sekunde;
+window.setTimeout('Uhrzeit()',1000); }
+</script>
+<form name="zeit">
+<input type=text name="uhr" size="10">
+</form>
+
+
+<div class="Links">
+<div class="borderL"> 
+</div>
+
+
+
+
+<div class="LinkA">
+<div id="Link1" >
+<a href="team.html">
+Team
+</a>
+</div>
+
+<div id="Link2">
+<a href="training.html">
+Training
+</a>
+</div>
+
+<div id="Link3">
+<a href="downloads.html">
+Downloads
+</a>
+</div>
+
+<div id="Link4">
+<a href="streams.html">
+Streams
+</a>
+</div>
+
+<div id="Link5">
+<a href="kontakt.html">
+Kontakt
+</a>
+</div>
+
+</div>
+</div>
+<div id="home">
+<a href="home.html">
+Home
+</a>
+</div>
+<p> <a
+class="linkL" >
+<img 
+src="Bilder/zeitplan.jpg" 
+alt="Zeitplan" 
+class="bildL" 
+title="Zeitplan" > 
+
+
+
+</body>
+
+
+</html>

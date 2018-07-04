@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>
+
+</title>
+
+
+<h1></h1>
+
+
+</head>
+
+<body onLoad="Uhrzeit();">
+
+	
+<div class="home"> 
+<h1>Willkommen bei Rock Solid</h1> 
+</div>
+
+<p class="text1">
+Wilkommen auf Unserer Website<br/>
+Hier kannst du allerlei Dinge machen<br>
+wie unseren Team beim Spielen zuzuschauen<br>
+oder dich selbst dort bewerben als Teammitglied <br>
+Außerdem kannst du über unsere Spieler lesen und <br>
+dir unser Team Logo downloaden <br>
+Also viel Spaß beim erkunden.<br>
+</p>
+
+<p class="text2">
+Für Neulinge.<br/>
+<br>
+Was ist LoL überhaupt ?<br>
+<br>
+League of Legends (kurz: LoL) ist ein von <br>
+Riot Games entwickeltes Computerspiel für Windows und macOS. <br>
+Das Spiel wurde am 27. Oktober 2009 veröffentlicht. <br>
+Es ist ein Free-to-play-MOBA, welches durch Mikrozahlungen unterstützt wird.<br> 
+Das Spiel wurde 2016 von ca. 100 Millionen Spielern monatlich gespielt.<br>
+</p> 
+
+
+<script class="uhr" type="text/javascript">
+function Uhrzeit() {
+var Heute = new Date();
+var Stunde  = Heute.getHours();
+var Minute  = Heute.getMinutes();
+var Sekunde = Heute.getSeconds();
+document.zeit.uhr.value= Stunde + ":" + Minute + ":" + Sekunde;
+window.setTimeout('Uhrzeit()',1000); }
+</script>
+<form name="zeit">
+<input type=text name="uhr" size="10">
+</form>
+
+
+<div class="Links">
+<div class="borderL"> 
+</div>
+
+
+
+
+<div class="LinkA">
+
+<div id="Link1" >
+<a href="team.html">
+Team
+</a>
+</div>
+
+<div id="Link2">
+<a href="training.html">
+Training
+</a>
+</div>
+
+<div id="Link3">
+<a href="downloads.html">
+Downloads
+</a>
+</div>
+
+<div id="Link4">
+<a href="streams.html">
+Streams
+</a>
+</div>
+
+<div id="Link5">
+<a href="kontakt.html">
+Kontakt
+</a>
+</div>
+
+</div>
+</div>
+<div id="home">
+<a href="home.html">
+Home
+</a>
+</div>
+<p> <a
+class="linkL" 
+href= "https://play.euw.leagueoflegends.com/de_DE" >
+<img 
+src="Bilder/LoL_Link.png" 
+alt="League of Legends Website Link" 
+class="bildL" 
+title="Der Link zur Website von LoL" > 
+
+
+
+</body>
+
+
+</html>

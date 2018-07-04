@@ -1,0 +1,329 @@
+body {	
+background-color:#0B0B3B;
+}
+
+.home {
+border:solid; 
+background:black ; 
+position:absolute;  
+padding-right: 50px; 
+padding-left: 50px; 
+margin-left: 860px;
+margin-bottom:10px;
+z-index:99;
+font-family: Pixel;
+font-size: 20px;
+color:white;
+}
+
+.linkL {
+
+}
+
+.text1 {
+font-family:Helvetica;
+color:white;
+border:solid;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+position:fixed;
+margin-top: 200px;
+width:170px;
+font-size: 20px;
+}
+
+.text2 {
+font-family:Helvetica;
+color:white;
+border:solid;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+position:fixed;
+margin-top: 200px;
+margin-left:270px;
+width:220px;
+font-size: 20px;
+}
+
+.bildL {
+width:60%; 
+margin-left: 700px; 
+border:solid; 
+margin-top: 200px; 
+position:fixed;
+}
+
+.bildLo {
+width:30%; 
+margin-left: 900px; 
+border:solid; 
+margin-top: 200px; 
+position:fixed;
+}
+
+.bildLo1 {
+width:20%; 
+margin-left: 800px; 
+border:solid; 
+margin-top: 200px; 
+position:fixed;
+}
+.bildLo2 {
+width:30%; 
+margin-left: 1200px; 
+border:solid; 
+margin-top: 200px; 
+position:fixed;
+}
+
+.stream {
+width:20%; 
+margin-left: 800px;  
+margin-top: 300px; 
+position:fixed;
+}
+
+.text3 {
+margin-left: 800px;  
+margin-top: 250px; 
+position:fixed;
+font-family:Helvetica;
+color:white;
+border:solid;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+}
+
+.text4 { 
+margin-left: 800px;  
+margin-top: 450px; 
+position:fixed;
+font-family:Helvetica;
+color:white;
+border:solid;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+}
+
+.text5 { 
+margin-left: 1200px;  
+margin-top: 250px; 
+position:fixed;
+font-family:Helvetica;
+color:white;
+border:solid;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+}
+
+.bewer { 
+margin-left: 800px;  
+margin-top: 250px; 
+position:fixed;
+font-family:Helvetica;
+color:white;
+border:solid;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+font-size: 30px;
+}
+
+.kontakte { 
+margin-left: 1200px;  
+margin-top: 250px; 
+position:fixed;
+font-family:Helvetica;
+color:white;
+border:solid;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+font-size: 30px;
+}
+
+.email { 
+margin-left: 1200px;  
+margin-top: 400px; 
+position:fixed;
+font-family:Helvetica;
+color:white;
+border:solid;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+font-size: 20px;
+}
+
+.Form1 { 
+margin-left: 800px;  
+margin-top: 350px; 
+position:fixed;
+font-family:Helvetica;
+color:white;
+border:solid;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+}
+
+
+.uhr { 
+position:fixed;
+padding-left:200px;
+}
+
+
+.borderL {
+border:solid; 
+color:white; 
+background-color:#0B0B3B;
+padding-right:1143px;  
+padding-bottom:70px;
+position:absolute; 
+margin-left:700px; 
+margin-top:90px;
+z-index:10;
+}
+
+.LinkA,#Link1, #Link2, #Link3, #Link4, #Link5 {
+border:solid;
+color:white;
+background-color:#0B0B61;
+position:absolute;
+padding-left:25px;
+padding-right:25px;
+padding-bottom:10px;
+padding-top:10px;
+z-index:40;
+font-family: Pixel;
+font-size:20px;
+}
+
+a {color:white;
+	text-decoration:none;
+}
+
+#Link1 {
+position:fixed;
+left:750px;
+top:145px;
+}
+
+#Link2 {
+position:fixed;
+left:880px;
+top:145px;
+}
+#Link3 {
+position:fixed;
+left:1060px;
+top:145px;
+}
+
+#Link4 {
+position:fixed;
+left:1260px;
+top:145px;
+}
+
+#Link5 {
+position:fixed;
+left:1430px;
+top:145px;
+}
+
+#home {
+border:solid;
+position:fixed;
+z-index:99;
+padding-left:25px;
+padding-right:25px;
+padding-bottom:10px;
+padding-top:10px;
+background-color:black;
+font-family:Arcade;
+font-size:60px;
+border-color:black;
+color:#39034C}
+
+#home:hover { 
+background-color:grey;
+color:green;
+}
+#Link1:hover { 
+background-color:#1C1C1C;
+color:white;
+}
+#Link2:hover { 
+background-color:#1C1C1C;
+color:white;
+}
+#Link3:hover { 
+background-color:#1C1C1C;
+color:white;
+}
+#Link4:hover { 
+background-color:#1C1C1C;
+color:white;
+}
+#Link5:hover { 
+background-color:#1C1C1C;
+color:white;
+}
+
+@font-face {
+font-family: Pixel;
+src: url(Fonts/Pixel.woff)
+}
+
+
+#home:active { 
+background-color:green;
+color:red;
+border-color:black;
+}
+#Link1:active { 
+background-color:#B32307;
+color:green;
+border-color:red;
+}
+#Link2:active { 
+background-color:#B32307;
+color:green;
+border-color:red;
+}
+#Link3:active { 
+background-color:#B32307;
+color:green;
+border-color:red;
+}
+#Link4:active { 
+background-color:#B32307;
+color:green;
+border-color:red;
+}
+#Link5:active { 
+background-color:#B32307;
+color:green;
+border-color:red;
+}
+
+@font-face {
+font-family: Arcade;
+src: url(Fonts/ARCADECLASSIC.woff)
+}
